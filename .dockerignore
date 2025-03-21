@@ -1,0 +1,56 @@
+# ノードモジュール
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ビルド済みファイル
+dist
+build
+.cache
+.env
+
+# 一時ファイル
+.DS_Store
+Thumbs.db
+
+# ドキュメント
+README.md
+CHANGELOG.md
+LICENSE
+docs
+
+# Git関連
+.git
+.gitignore
+
+# Docker関連
+.dockerignore
+compose.yml
+Dockerfile*
+
+# エディタ設定
+.vscode
+.idea
+*.sublime-*
+*.swp
+*.swo
+
+# テスト関連
+coverage
+.nyc_output
+test
+tests
+__tests__
+*.test.js
+*.spec.js
+
+# コード品質関連
+.eslintrc
+.eslintignore
+.prettierrc
+.stylelintrc
+
+# ログファイル
+logs
+*.log
